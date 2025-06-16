@@ -21,10 +21,11 @@
 
     <div class="navbar-end">
       <Theme_Controller />
-      <a class="btn font-bold mr-5">登入</a>
+      <SigninModal />
     </div>
   </div>
 </template>
 <script setup>
 import Theme_Controller from "./Theme_Controller.vue";
+import SigninModal from "./SigninModal.vue";
 </script>
