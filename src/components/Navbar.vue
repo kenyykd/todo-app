@@ -18,9 +18,13 @@
       />
       <input type="radio" name="my_tabs_2" class="tab" aria-label="留言板" />
     </div>
+
     <div class="navbar-end">
-      <a class="btn font-bold mr-3">登入</a>
+      <Theme_Controller />
+      <a class="btn font-bold mr-5">登入</a>
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import Theme_Controller from "./Theme_Controller.vue";
+</script>
